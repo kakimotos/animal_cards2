@@ -67,7 +67,7 @@ class _AnimalListPageState extends State<AnimalListPage> {
             mainAxisSpacing: 8,
             crossAxisSpacing:16,
             crossAxisCount: 2,
-            childAspectRatio: 0.8,
+            childAspectRatio: 0.7,
 
           ),
           scrollDirection: Axis.vertical,
@@ -122,7 +122,7 @@ class _AnimalListPageState extends State<AnimalListPage> {
                   child: Text(
                     animal['name'],
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 10,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -131,7 +131,7 @@ class _AnimalListPageState extends State<AnimalListPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Text(
                     animal['description'],
-                    maxLines: 2,
+                    maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
                       fontSize: 14,
