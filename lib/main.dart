@@ -122,7 +122,7 @@ class _AnimalListPageState extends State<AnimalListPage> {
                   child: Text(
                     animal['name'],
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 10,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
